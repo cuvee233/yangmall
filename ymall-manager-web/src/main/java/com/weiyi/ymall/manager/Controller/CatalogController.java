@@ -4,7 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.weiyi.ymall.beans.PmsBaseCatalog1;
 import com.weiyi.ymall.beans.PmsBaseCatalog2;
 import com.weiyi.ymall.beans.PmsBaseCatalog3;
-import com.weiyi.ymall.service.CatalogService;
+import com.weiyi.ymall.service.manager.CatalogService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

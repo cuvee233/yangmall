@@ -8,7 +8,7 @@ import com.weiyi.ymall.manager.service.mapper.Catalog1Mapper;
 import com.weiyi.ymall.manager.service.mapper.Catalog2Mapper;
 import com.weiyi.ymall.manager.service.mapper.Catalog3Mapper;
 import com.weiyi.ymall.service.BaseService;
-import com.weiyi.ymall.service.CatalogService;
+import com.weiyi.ymall.service.manager.CatalogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 

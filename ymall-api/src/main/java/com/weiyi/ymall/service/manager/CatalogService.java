@@ -1,4 +1,4 @@
-package com.weiyi.ymall.service;
+package com.weiyi.ymall.service.manager;
 
 import com.weiyi.ymall.beans.PmsBaseCatalog1;
 import com.weiyi.ymall.beans.PmsBaseCatalog2;

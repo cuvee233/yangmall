@@ -9,7 +9,8 @@ import java.io.Serializable;
  * @param
  * @return
  */
-public class PmsBaseAttrValue implements Serializable {
+public class
+PmsBaseAttrValue implements Serializable {
     @Id
     @Column
     private String id;
