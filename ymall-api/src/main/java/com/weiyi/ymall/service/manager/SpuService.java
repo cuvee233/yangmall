@@ -1,5 +1,6 @@
 package com.weiyi.ymall.service.manager;
 
+import com.weiyi.ymall.beans.PmsBaseSaleAttr;
 import com.weiyi.ymall.beans.PmsProductInfo;
 
 import java.util.List;
@@ -19,4 +20,14 @@ public interface SpuService {
      * @return SPU列表
      */
     List<PmsProductInfo> getSpuList(String catalog3Id);
+
+    /**
+     * 查询销售属性列表
+     *
+     * @return
+     */
+    List<PmsBaseSaleAttr> baseSaleAttrList();
+
+    void saveSpuInfo(PmsProductInfo pmsProductInfo);
+
 }

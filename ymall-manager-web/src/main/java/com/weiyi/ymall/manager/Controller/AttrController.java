@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 平台属性相关
@@ -38,5 +40,14 @@ public class AttrController {
     public String saveAttrInfo(@RequestBody PmsBaseAttrInfo pmsBaseAttrInfo) {
         Boolean success = attrService.addAttrInfo(pmsBaseAttrInfo);
         return "Success";
+    }
+
+    public static void main(String[] args) {
+
+        // 平方
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+
+        list.stream().map(num -> num * num).collect(Collectors.toList()).forEach(System.out::println);
+
     }
 }

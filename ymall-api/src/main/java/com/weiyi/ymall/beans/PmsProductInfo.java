@@ -17,7 +17,7 @@ public class PmsProductInfo implements Serializable {
     private String id;
 
     @Column
-    private String productName;
+    private String spuName;
 
     @Column
     private String description;
@@ -33,11 +33,11 @@ public class PmsProductInfo implements Serializable {
 
 
     public String getProductName() {
-        return productName;
+        return spuName;
     }
 
     public void setProductName(String productName) {
-        this.productName = productName;
+        this.spuName = productName;
     }
 
     public List<PmsProductSaleAttr> getSpuSaleAttrList() {
